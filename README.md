@@ -83,7 +83,7 @@ yapay zekadan yardım alındı
 
 ## 🌐 Canlı Demo
 🟢 [Canlı sayfa linkini buraya yazacaksın]  
-(Örnek: https://kullaniciadi.github.io/kbu-not-hesaplayici)
+(Örnek: https://havvasude.github.io/kbu-not-hesaplayici)
 
 ---
 
