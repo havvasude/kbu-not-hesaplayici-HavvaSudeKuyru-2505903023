@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KBÜ Not Hesaplayıcı</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>KBÜ Not Hesaplayıcı</h1>
+    <p>Vize, final veya bütünleme notunu gir, geçip geçmediğini öğren!</p>
+
+    <div class="form">
+      <label>Vize (0–100):</label>
+      <input type="number" id="vize" /><br /><br />
+
+      <label>Yıl içi (boş bırakabilirsin):</label>
+      <input type="number" id="yilici" /><br /><br />
+
+      <label>Final (0–100):</label>
+      <input type="number" id="final" /><br /><br />
+
+      <label>Bütünleme (isteğe bağlı):</label>
+      <input type="number" id="butunleme" /><br /><br />
+
+      <label> <input type="checkbox" id="devamsiz" /> Devamsızım (F1) </label
+      ><br /><br />
+
+      <label>Sınava girdim mi?</label>
+      <select id="sinavaGirdim">
+        <option value="evet">Evet</option>
+        <option value="hayir">Hayır</option></select
+      ><br /><br />
+
+      <button id="hesapla">Hesapla</button>
+      <button id="sifirla">Sıfırla</button>
+    </div>
+
+    <div id="sonuc" class="card" style="display: none">
+      <h3>Sonuç</h3>
+      <p id="basari"></p>
+      <p id="harf"></p>
+      <p id="durum"></p>
+      <p id="aciklama"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
